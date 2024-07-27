@@ -1,0 +1,2 @@
+# szamaDLAleniwych
+Projekt zaliczeniowy Kurs
