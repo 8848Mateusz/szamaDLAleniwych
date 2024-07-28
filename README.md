@@ -19,9 +19,20 @@ szamaDLAleniwych to projekt napisany w języku Java. Powstał w celu zaliczenia 
 ## Instalacja i uruchomienie
 
 ### 1. Klonowanie repozytorium
-
+  
+Stwórz fork repozytorium.
+Sklonuj repozytorium na swój komputer. Użyj do tego komendy git clone adres_repozytorium.
+Adres repozytorium możesz znaleźć na stronie repozytorium po naciśnięciu w guzik "Clone or download".
 - git clone https://github.com/8848Mateusz/szamaDLAleniwych.git
-- cd szamaDLAleniwych
+
+Zwróć uwagę, żeby użyć adresu własnego forka, powinien wyglądać zgodnie ze schematem: https://github.com/twoj-login/adres_repozytorium
+
+Zaimportuj projekt jako projekt Maven, wg poniższych wskazówek:
+
+W IntelliJ wybieramy: File –> New –> Project from Existing Sources...
+Wskazujemy lokalizację katalogu ze sklonowanym projektem i zatwierdzamy.
+Następnie w nowym oknie wybieramy: Import project from external model i wskazujemy Maven
+Wybieramy opcję:  Finish.
 
 ### 2. Konfiguracja bazy danych
 
