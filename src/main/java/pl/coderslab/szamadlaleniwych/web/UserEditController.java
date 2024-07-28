@@ -1,5 +1,6 @@
 package pl.coderslab.szamadlaleniwych.web;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Controller;

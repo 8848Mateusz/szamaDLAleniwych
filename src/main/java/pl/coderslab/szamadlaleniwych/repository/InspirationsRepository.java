@@ -8,6 +8,8 @@ import java.util.List;
 
 @Repository
 public interface InspirationsRepository extends JpaRepository<Inspirations, Long> {
+
     List<Inspirations> findFoodByUser_Id(Long userId);
+
     void deleteByUserId(Long userId);
 }

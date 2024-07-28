@@ -1,5 +1,6 @@
 package pl.coderslab.szamadlaleniwych.model;
 
+
 public class IngredientsRecipe {
 
     private String name;

@@ -1,5 +1,6 @@
 package pl.coderslab.szamadlaleniwych.web;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -9,7 +10,6 @@ import pl.coderslab.szamadlaleniwych.dto.InspirationsDto;
 import pl.coderslab.szamadlaleniwych.repository.InspirationsRepository;
 import pl.coderslab.szamadlaleniwych.service.InspirationsService;
 import pl.coderslab.szamadlaleniwych.service.InspirationsSpoonacularService;
-
 import java.util.List;
 
 @Controller

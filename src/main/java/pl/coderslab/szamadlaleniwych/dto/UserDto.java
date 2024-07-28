@@ -1,5 +1,6 @@
 package pl.coderslab.szamadlaleniwych.dto;
 
+
 public class UserDto {
 
     private Long id;
