@@ -28,7 +28,7 @@ public class FoodIngredientsSpoonacularService {
 
         URI searchUri = UriComponentsBuilder.fromHttpUrl("https://api.spoonacular.com/recipes/findByIngredients")
                 .queryParam("ingredients", ingredients)
-                .queryParam("number", 1)
+                .queryParam("number", 5)
                 .queryParam("apiKey", spoonacularApiKey)
                 .build()
                 .toUri();
